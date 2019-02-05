@@ -4,6 +4,7 @@ console.log("Scrpit By Dream");
 
 
 client.on("ready", () => {
+if (message.content === '!spam') {
 let channel =     client.channels.get("542328854199664661")
 setInterval(function() {
 channel.send(`farmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarmfarm
